@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0, 1),
     // necessary for content to be below app bar
     ...theme.mixins.toolbar,
-    justifyContent:'space-between',
+    justifyContent: 'space-between',
   },
   drawerHeaderIcon: {
     color: '#fff',
@@ -57,7 +57,7 @@ const SideBar = (props) => {
           component="h1"
           className={classes.drawerHeaderTitle}
         >
-          Lending
+          Dynamic SideBar
         </Typography>
         <IconButton onClick={onClose} className={classes.drawerHeaderIcon}>
           {theme.direction === 'ltr' ? (
